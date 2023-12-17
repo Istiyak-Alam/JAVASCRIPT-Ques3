@@ -1,0 +1,79 @@
+Q.1 :- Write the Code for all Data types.
+
+Answer :- let variable = 'This is a string';
+          console.log(typeof variable); // string
+
+          variable = 123;
+          console.log(typeof variable); // number
+
+          variable = true;
+          console.log(typeof variable); // boolean
+
+          variable = null;
+          console.log(typeof variable); // object
+
+          variable = undefined;
+          console.log(typeof variable); // undefined
+
+          variable = {a: 1, b: 2};
+          console.log(typeof variable); // object
+
+          variable = [1, 2, 3];
+          console.log(typeof variable); // object
+
+          variable = function() { return 'Hello, world!'; };
+          console.log(typeof variable); // function
+
+
+Q.2 :- What are the uses of JavaScript Operators?
+
+Answer :- Arithmetic Operators: They perform mathematical operations on operands. For example, +, -, *, /, and %.
+
+          Comparison Operators: They compare two operands. For example, ==, !=, ===, !==, <, >, <=, and >=.
+
+          Logical Operators: They are used to determine the logic between variables or values. For example, &&, ||, and !.
+
+          Conditional (Ternary) Operator: It is used to perform a condition check. For example, condition ? exprIfTrue : exprIfFalse.
+
+          Assignment Operators: They are used to assign a value to a variable. For example, =, +=, -=, *=, /=, and %=.
+
+          Type Operators: They are used to perform operations on data types. For example, typeof, instanceof, and void.
+
+          Bitwise Operators: They are used to perform bitwise calculations on numbers. For example, &, |, ^, ~, <<, >>, >>>, and nullish coalescing operator (??).
+
+Q.3 :- Explain the Assignment Operator.
+
+Answer :- The assignment operator in JavaScript is used to assign a value to a variable.
+          It's denoted by a single equals sign: = .
+
+Q.4 :- Explain the all Arithmetic Operators.
+
+Answer :- In JavaScript, arithmetic operators are used to perform mathematical operations on numbers.
+          1.Addition (+): The "+" operator is used to add two numbers together. 
+          2.Subtraction (-): The "-" operator is used to subtract a number from another number.
+          3.Multiplication (*): The "" operator is used to multiply two numbers together.
+          4.Division (/) : The "/" operator is used to divide a number by another number. 
+          5.Remainder (%): The "%" operator is used to find the remainder when one number is divided by another.
+          6.Exponentiation (**): The "" operator is used to raise a number to the power of another number.
+          7.Increment (++): The "++" operator is used to increment a variable by 1. It can be used as a prefix or postfix operator. 
+          8.Decrement (--): The "--" operator is used to decrement a variable by 1. It can be used as a prefix or postfix operator.
+
+
+Q.5 :- What are the Binary Operators in js.
+
+Answer :- Binary operators in JavaScript are used to perform operations on two operands. The operators combine, compare, or manipulate data.
+
+Q.6 :- Explain the Pre-Increment and Post Increment in js.
+
+Answer :- In JavaScript, increment and decrement are unary operators used to modify a variable by increasing or decreasing its value by 1.
+          There are two types of increment operators in JavaScript:
+
+          1.Pre-Increment (++):-The value of the variable is incremented by 1 before any operations in the line of code are executed.
+          Ex:-let x = 10;
+              let y = ++x;
+              console.log(y);// Outputs: 11
+
+          2.Post-Increment (++):-The value of the variable is incremented by 1 after all operations in the line of code are executed.
+          Ex:-let x = 10;
+              let y = x++;
+              console.log(y);// Outputs: 10
